@@ -8,7 +8,10 @@
 
 #import "santaViewController3.h"
 
-@interface santaViewController3 ()
+@interface santaViewController3 (){
+    // NSUserDefaultsに初期値を登録する
+    NSUserDefaults *ud;
+}
 @property (weak, nonatomic) IBOutlet UITextField *myTextField;
 
 @end
@@ -83,85 +86,52 @@
     [textfield12 resignFirstResponder];
     return  YES;
     
-    // NSUserDefaultsに初期値を登録する
-    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    ud = [NSUserDefaults standardUserDefaults];
     //保存・更新
     NSString *str = textfield.text;
     [ud setObject:str forKey:@"myString"];
-    if (str != NULL) {
-        self.myTextField.text = str;
-    }
     
     NSString *str2 = textfield.text;
     [ud setObject:str2 forKey:@"myString"];
-    if (str2 != NULL) {
-        self.myTextField.text = str2;
-    }
     
     NSString *str3 = textfield.text;
     [ud setObject:str3 forKey:@"myString"];
-    if (str3!= NULL) {
-        self.myTextField.text = str3;
-    }
     
     NSString *str4 = textfield.text;
     [ud setObject:str4 forKey:@"myString"];
-    if (str4 != NULL) {
-        self.myTextField.text = str4;
-    }
     
     NSString *str5 = textfield.text;
     [ud setObject:str5 forKey:@"myString"];
-    if (str5 != NULL) {
-        self.myTextField.text = str5;
-    }
     
     NSString *str6 = textfield.text;
     [ud setObject:str6 forKey:@"myString"];
-    if (str6 != NULL) {
-        self.myTextField.text = str6;
-    }
     
     NSString *str7 = textfield.text;
     [ud setObject:str7 forKey:@"myString"];
-    if (str7 != NULL) {
-        self.myTextField.text = str7;
-    }
     
     NSString *str8 = textfield.text;
     [ud setObject:str8 forKey:@"myString"];
-    if (str8 != NULL) {
-        self.myTextField.text = str8;
-    }
     
     NSString *str9 = textfield.text;
     [ud setObject:str9 forKey:@"myString"];
-    if (str9 != NULL) {
-        self.myTextField.text = str9;
-    }
     
     NSString *str10 = textfield.text;
     [ud setObject:str10 forKey:@"myString"];
-    if (str10 != NULL) {
-        self.myTextField.text = str10;
-    }
     
     NSString *str11 = textfield.text;
     [ud setObject:str11 forKey:@"myString"];
-    if (str11 != NULL) {
-        self.myTextField.text = str11;
-    }
     
     NSString *str12 = textfield.text;
     [ud setObject:str12 forKey:@"myString"];
     
-    if (str12 != NULL) {
-        self.myTextField.text = str12;
-    }
+//    [ud synchronize];
     
-    [ud synchronize];
-}
 
+}
+-(IBAction)test{
+         NSString *hoge = [[NSUserDefaults standardUserDefaults] stringForKey:@"myString"];
+    NSLog(@"test:%@",hoge);
+}
 
 -(IBAction)back
 {

@@ -62,6 +62,10 @@
 -(IBAction)schedule
 {
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];  // 取得
+    [ud setObject:self forKey:@"myString"];
+    [ud synchronize];
+    
+    /*
     NSString *rStr = [ud stringForKey:@"myString"];
     NSLog(@"%@",rStr);
     
@@ -97,9 +101,8 @@
     
     NSString *rStr12 = [ud stringForKey:@"myString"];
     NSLog(@"%@",rStr12);
+    */
     
-    
-
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"時間割" message:@"myString" delegate:
                               self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
     [alertView show];
