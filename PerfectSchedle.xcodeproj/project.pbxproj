@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B06294E1967C53600B065B2 /* Perfect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B06294D1967C53600B065B2 /* Perfect.jpg */; };
+		7B06295919680AF800B065B2 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B06295819680AF800B065B2 /* 123.jpg */; };
+		7B06295B196846A600B065B2 /* FB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B06295A196846A600B065B2 /* FB.png */; };
+		7B06295D1968476E00B065B2 /* tw.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B06295C1968476E00B065B2 /* tw.png */; };
+		7B0ED39C1991D9C700BEDBF3 /* finish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B0ED39B1991D9C700BEDBF3 /* finish.jpg */; };
+		7B38CA36197A70A500EF48E0 /* russia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B38CA35197A70A500EF48E0 /* russia.jpg */; };
+		7B5090CA1945EF3E00AB494A /* 月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5090C51945EF3E00AB494A /* 月.jpg */; };
+		7B5090CB1945EF3E00AB494A /* 金.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5090C61945EF3E00AB494A /* 金.jpg */; };
+		7B5090CC1945EF3E00AB494A /* 木.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5090C71945EF3E00AB494A /* 木.jpg */; };
+		7B5090CD1945EF3E00AB494A /* 火.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5090C81945EF3E00AB494A /* 火.jpg */; };
+		7B5090CE1945EF3E00AB494A /* 水.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5090C91945EF3E00AB494A /* 水.jpg */; };
+		7B5C048C198FC92A00F32E61 /* gamen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C048B198FC92A00F32E61 /* gamen.jpg */; };
+		7B8DEC80194D396400E55B13 /* WOWWOW!.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B8DEC7F194D396400E55B13 /* WOWWOW!.jpg */; };
+		7B912CED196856DC004CDDE9 /* 土.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B912CEC196856DC004CDDE9 /* 土.jpg */; };
+		7B9CD4731943191200EC5EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CD4721943191200EC5EEA /* Foundation.framework */; };
+		7B9CD4751943191200EC5EEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CD4741943191200EC5EEA /* CoreGraphics.framework */; };
+		7B9CD4771943191200EC5EEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CD4761943191200EC5EEA /* UIKit.framework */; };
+		7B9CD47D1943191200EC5EEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B9CD47B1943191200EC5EEA /* InfoPlist.strings */; };
+		7B9CD47F1943191200EC5EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD47E1943191200EC5EEA /* main.m */; };
+		7B9CD4831943191200EC5EEA /* santaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4821943191200EC5EEA /* santaAppDelegate.m */; };
+		7B9CD4861943191200EC5EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9CD4841943191200EC5EEA /* Main.storyboard */; };
+		7B9CD4891943191200EC5EEA /* santaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4881943191200EC5EEA /* santaViewController.m */; };
+		7B9CD48B1943191200EC5EEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9CD48A1943191200EC5EEA /* Images.xcassets */; };
+		7B9CD4921943191300EC5EEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CD4911943191300EC5EEA /* XCTest.framework */; };
+		7B9CD4931943191300EC5EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CD4721943191200EC5EEA /* Foundation.framework */; };
+		7B9CD4941943191300EC5EEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CD4761943191200EC5EEA /* UIKit.framework */; };
+		7B9CD49C1943191300EC5EEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B9CD49A1943191300EC5EEA /* InfoPlist.strings */; };
+		7B9CD49E1943191300EC5EEA /* PerfectSchedleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD49D1943191300EC5EEA /* PerfectSchedleTests.m */; };
+		7B9CD4A919431BA200EC5EEA /* _XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9CD4A719431BA100EC5EEA /* _XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300.png */; };
+		7B9CD4AA19431BA200EC5EEA /* lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9CD4A819431BA200EC5EEA /* lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300.png */; };
+		7B9CD4AC1943233100EC5EEA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CD4AB1943233100EC5EEA /* Social.framework */; };
+		7B9CD4AF19432B1700EC5EEA /* santaViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4AE19432B1700EC5EEA /* santaViewController2.m */; };
+		7B9CD4B219432B2B00EC5EEA /* santaViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4B119432B2B00EC5EEA /* santaViewController3.m */; };
+		7B9CD4B519432B5100EC5EEA /* santaViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4B419432B5100EC5EEA /* santaViewController4.m */; };
+		7B9CD4B819432B6A00EC5EEA /* santaViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4B719432B6A00EC5EEA /* santaViewController5.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B9CD4951943191300EC5EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B9CD4671943191200EC5EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B9CD46E1943191200EC5EEA;
+			remoteInfo = PerfectSchedle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B06294D1967C53600B065B2 /* Perfect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perfect.jpg; sourceTree = "<group>"; };
+		7B06295819680AF800B065B2 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		7B06295A196846A600B065B2 /* FB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB.png; sourceTree = "<group>"; };
+		7B06295C1968476E00B065B2 /* tw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tw.png; sourceTree = "<group>"; };
+		7B0ED39B1991D9C700BEDBF3 /* finish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finish.jpg; sourceTree = "<group>"; };
+		7B38CA35197A70A500EF48E0 /* russia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = russia.jpg; sourceTree = "<group>"; };
+		7B5090C51945EF3E00AB494A /* 月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "月.jpg"; sourceTree = "<group>"; };
+		7B5090C61945EF3E00AB494A /* 金.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金.jpg"; sourceTree = "<group>"; };
+		7B5090C71945EF3E00AB494A /* 木.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "木.jpg"; sourceTree = "<group>"; };
+		7B5090C81945EF3E00AB494A /* 火.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "火.jpg"; sourceTree = "<group>"; };
+		7B5090C91945EF3E00AB494A /* 水.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水.jpg"; sourceTree = "<group>"; };
+		7B5C048B198FC92A00F32E61 /* gamen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gamen.jpg; sourceTree = "<group>"; };
+		7B8DEC7F194D396400E55B13 /* WOWWOW!.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WOWWOW!.jpg"; sourceTree = "<group>"; };
+		7B912CEC196856DC004CDDE9 /* 土.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "土.jpg"; sourceTree = "<group>"; };
+		7B9CD46F1943191200EC5EEA /* PerfectSchedle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectSchedle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9CD4721943191200EC5EEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B9CD4741943191200EC5EEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B9CD4761943191200EC5EEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B9CD47A1943191200EC5EEA /* PerfectSchedle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PerfectSchedle-Info.plist"; sourceTree = "<group>"; };
+		7B9CD47C1943191200EC5EEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B9CD47E1943191200EC5EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B9CD4801943191200EC5EEA /* PerfectSchedle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerfectSchedle-Prefix.pch"; sourceTree = "<group>"; };
+		7B9CD4811943191200EC5EEA /* santaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = santaAppDelegate.h; sourceTree = "<group>"; };
+		7B9CD4821943191200EC5EEA /* santaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = santaAppDelegate.m; sourceTree = "<group>"; };
+		7B9CD4851943191200EC5EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B9CD4871943191200EC5EEA /* santaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = santaViewController.h; sourceTree = "<group>"; };
+		7B9CD4881943191200EC5EEA /* santaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = santaViewController.m; sourceTree = "<group>"; };
+		7B9CD48A1943191200EC5EEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B9CD4901943191300EC5EEA /* PerfectSchedleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectSchedleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9CD4911943191300EC5EEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7B9CD4991943191300EC5EEA /* PerfectSchedleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PerfectSchedleTests-Info.plist"; sourceTree = "<group>"; };
+		7B9CD49B1943191300EC5EEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B9CD49D1943191300EC5EEA /* PerfectSchedleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectSchedleTests.m; sourceTree = "<group>"; };
+		7B9CD4A719431BA100EC5EEA /* _XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300.png"; sourceTree = "<group>"; };
+		7B9CD4A819431BA200EC5EEA /* lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300.png"; sourceTree = "<group>"; };
+		7B9CD4AB1943233100EC5EEA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7B9CD4AD19432B1700EC5EEA /* santaViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = santaViewController2.h; path = ../santaViewController2.h; sourceTree = "<group>"; };
+		7B9CD4AE19432B1700EC5EEA /* santaViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = santaViewController2.m; path = ../santaViewController2.m; sourceTree = "<group>"; };
+		7B9CD4B019432B2B00EC5EEA /* santaViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = santaViewController3.h; path = ../santaViewController3.h; sourceTree = "<group>"; };
+		7B9CD4B119432B2B00EC5EEA /* santaViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = santaViewController3.m; path = ../santaViewController3.m; sourceTree = "<group>"; };
+		7B9CD4B319432B5100EC5EEA /* santaViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = santaViewController4.h; path = ../santaViewController4.h; sourceTree = "<group>"; };
+		7B9CD4B419432B5100EC5EEA /* santaViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = santaViewController4.m; path = ../santaViewController4.m; sourceTree = "<group>"; };
+		7B9CD4B619432B6A00EC5EEA /* santaViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = santaViewController5.h; path = ../santaViewController5.h; sourceTree = "<group>"; };
+		7B9CD4B719432B6A00EC5EEA /* santaViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = santaViewController5.m; path = ../santaViewController5.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B9CD46C1943191200EC5EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9CD4AC1943233100EC5EEA /* Social.framework in Frameworks */,
+				7B9CD4751943191200EC5EEA /* CoreGraphics.framework in Frameworks */,
+				7B9CD4771943191200EC5EEA /* UIKit.framework in Frameworks */,
+				7B9CD4731943191200EC5EEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9CD48D1943191300EC5EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9CD4921943191300EC5EEA /* XCTest.framework in Frameworks */,
+				7B9CD4941943191300EC5EEA /* UIKit.framework in Frameworks */,
+				7B9CD4931943191300EC5EEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9CD4661943191200EC5EEA = {
+			isa = PBXGroup;
+			children = (
+				7B9CD4781943191200EC5EEA /* PerfectSchedle */,
+				7B9CD4971943191300EC5EEA /* PerfectSchedleTests */,
+				7B9CD4711943191200EC5EEA /* Frameworks */,
+				7B9CD4701943191200EC5EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B9CD4701943191200EC5EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B9CD46F1943191200EC5EEA /* PerfectSchedle.app */,
+				7B9CD4901943191300EC5EEA /* PerfectSchedleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B9CD4711943191200EC5EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B9CD4AB1943233100EC5EEA /* Social.framework */,
+				7B9CD4721943191200EC5EEA /* Foundation.framework */,
+				7B9CD4741943191200EC5EEA /* CoreGraphics.framework */,
+				7B9CD4761943191200EC5EEA /* UIKit.framework */,
+				7B9CD4911943191300EC5EEA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B9CD4781943191200EC5EEA /* PerfectSchedle */ = {
+			isa = PBXGroup;
+			children = (
+				7B0ED39B1991D9C700BEDBF3 /* finish.jpg */,
+				7B5C048B198FC92A00F32E61 /* gamen.jpg */,
+				7B38CA35197A70A500EF48E0 /* russia.jpg */,
+				7B06295C1968476E00B065B2 /* tw.png */,
+				7B06295A196846A600B065B2 /* FB.png */,
+				7B06295819680AF800B065B2 /* 123.jpg */,
+				7B06294D1967C53600B065B2 /* Perfect.jpg */,
+				7B8DEC7F194D396400E55B13 /* WOWWOW!.jpg */,
+				7B5090C51945EF3E00AB494A /* 月.jpg */,
+				7B5090C81945EF3E00AB494A /* 火.jpg */,
+				7B5090C91945EF3E00AB494A /* 水.jpg */,
+				7B5090C71945EF3E00AB494A /* 木.jpg */,
+				7B5090C61945EF3E00AB494A /* 金.jpg */,
+				7B912CEC196856DC004CDDE9 /* 土.jpg */,
+				7B9CD4A719431BA100EC5EEA /* _XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300.png */,
+				7B9CD4A819431BA200EC5EEA /* lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300.png */,
+				7B9CD4811943191200EC5EEA /* santaAppDelegate.h */,
+				7B9CD4821943191200EC5EEA /* santaAppDelegate.m */,
+				7B9CD4841943191200EC5EEA /* Main.storyboard */,
+				7B9CD4871943191200EC5EEA /* santaViewController.h */,
+				7B9CD4881943191200EC5EEA /* santaViewController.m */,
+				7B9CD4AD19432B1700EC5EEA /* santaViewController2.h */,
+				7B9CD4AE19432B1700EC5EEA /* santaViewController2.m */,
+				7B9CD4B019432B2B00EC5EEA /* santaViewController3.h */,
+				7B9CD4B119432B2B00EC5EEA /* santaViewController3.m */,
+				7B9CD4B319432B5100EC5EEA /* santaViewController4.h */,
+				7B9CD4B419432B5100EC5EEA /* santaViewController4.m */,
+				7B9CD4B619432B6A00EC5EEA /* santaViewController5.h */,
+				7B9CD4B719432B6A00EC5EEA /* santaViewController5.m */,
+				7B9CD48A1943191200EC5EEA /* Images.xcassets */,
+				7B9CD4791943191200EC5EEA /* Supporting Files */,
+			);
+			path = PerfectSchedle;
+			sourceTree = "<group>";
+		};
+		7B9CD4791943191200EC5EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B9CD47A1943191200EC5EEA /* PerfectSchedle-Info.plist */,
+				7B9CD47B1943191200EC5EEA /* InfoPlist.strings */,
+				7B9CD47E1943191200EC5EEA /* main.m */,
+				7B9CD4801943191200EC5EEA /* PerfectSchedle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B9CD4971943191300EC5EEA /* PerfectSchedleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B9CD49D1943191300EC5EEA /* PerfectSchedleTests.m */,
+				7B9CD4981943191300EC5EEA /* Supporting Files */,
+			);
+			path = PerfectSchedleTests;
+			sourceTree = "<group>";
+		};
+		7B9CD4981943191300EC5EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B9CD4991943191300EC5EEA /* PerfectSchedleTests-Info.plist */,
+				7B9CD49A1943191300EC5EEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B9CD46E1943191200EC5EEA /* PerfectSchedle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9CD4A11943191300EC5EEA /* Build configuration list for PBXNativeTarget "PerfectSchedle" */;
+			buildPhases = (
+				7B9CD46B1943191200EC5EEA /* Sources */,
+				7B9CD46C1943191200EC5EEA /* Frameworks */,
+				7B9CD46D1943191200EC5EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectSchedle;
+			productName = PerfectSchedle;
+			productReference = 7B9CD46F1943191200EC5EEA /* PerfectSchedle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B9CD48F1943191300EC5EEA /* PerfectSchedleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9CD4A41943191300EC5EEA /* Build configuration list for PBXNativeTarget "PerfectSchedleTests" */;
+			buildPhases = (
+				7B9CD48C1943191300EC5EEA /* Sources */,
+				7B9CD48D1943191300EC5EEA /* Frameworks */,
+				7B9CD48E1943191300EC5EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B9CD4961943191300EC5EEA /* PBXTargetDependency */,
+			);
+			name = PerfectSchedleTests;
+			productName = PerfectSchedleTests;
+			productReference = 7B9CD4901943191300EC5EEA /* PerfectSchedleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B9CD4671943191200EC5EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = santa;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "santa naruse";
+				TargetAttributes = {
+					7B9CD48F1943191300EC5EEA = {
+						TestTargetID = 7B9CD46E1943191200EC5EEA;
+					};
+				};
+			};
+			buildConfigurationList = 7B9CD46A1943191200EC5EEA /* Build configuration list for PBXProject "PerfectSchedle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B9CD4661943191200EC5EEA;
+			productRefGroup = 7B9CD4701943191200EC5EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B9CD46E1943191200EC5EEA /* PerfectSchedle */,
+				7B9CD48F1943191300EC5EEA /* PerfectSchedleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B9CD46D1943191200EC5EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B06294E1967C53600B065B2 /* Perfect.jpg in Resources */,
+				7B5090CB1945EF3E00AB494A /* 金.jpg in Resources */,
+				7B8DEC80194D396400E55B13 /* WOWWOW!.jpg in Resources */,
+				7B5090CA1945EF3E00AB494A /* 月.jpg in Resources */,
+				7B38CA36197A70A500EF48E0 /* russia.jpg in Resources */,
+				7B06295B196846A600B065B2 /* FB.png in Resources */,
+				7B9CD4AA19431BA200EC5EEA /* lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300.png in Resources */,
+				7B5090CD1945EF3E00AB494A /* 火.jpg in Resources */,
+				7B9CD4A919431BA200EC5EEA /* _XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300.png in Resources */,
+				7B06295919680AF800B065B2 /* 123.jpg in Resources */,
+				7B5090CC1945EF3E00AB494A /* 木.jpg in Resources */,
+				7B912CED196856DC004CDDE9 /* 土.jpg in Resources */,
+				7B06295D1968476E00B065B2 /* tw.png in Resources */,
+				7B9CD48B1943191200EC5EEA /* Images.xcassets in Resources */,
+				7B9CD47D1943191200EC5EEA /* InfoPlist.strings in Resources */,
+				7B0ED39C1991D9C700BEDBF3 /* finish.jpg in Resources */,
+				7B5090CE1945EF3E00AB494A /* 水.jpg in Resources */,
+				7B5C048C198FC92A00F32E61 /* gamen.jpg in Resources */,
+				7B9CD4861943191200EC5EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9CD48E1943191300EC5EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9CD49C1943191300EC5EEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B9CD46B1943191200EC5EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9CD4B819432B6A00EC5EEA /* santaViewController5.m in Sources */,
+				7B9CD4891943191200EC5EEA /* santaViewController.m in Sources */,
+				7B9CD4B519432B5100EC5EEA /* santaViewController4.m in Sources */,
+				7B9CD4AF19432B1700EC5EEA /* santaViewController2.m in Sources */,
+				7B9CD4831943191200EC5EEA /* santaAppDelegate.m in Sources */,
+				7B9CD4B219432B2B00EC5EEA /* santaViewController3.m in Sources */,
+				7B9CD47F1943191200EC5EEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9CD48C1943191300EC5EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9CD49E1943191300EC5EEA /* PerfectSchedleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B9CD4961943191300EC5EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B9CD46E1943191200EC5EEA /* PerfectSchedle */;
+			targetProxy = 7B9CD4951943191300EC5EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B9CD47B1943191200EC5EEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B9CD47C1943191200EC5EEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B9CD4841943191200EC5EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B9CD4851943191200EC5EEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B9CD49A1943191300EC5EEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B9CD49B1943191300EC5EEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B9CD49F1943191300EC5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B9CD4A01943191300EC5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B9CD4A21943191300EC5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerfectSchedle/PerfectSchedle-Prefix.pch";
+				INFOPLIST_FILE = "PerfectSchedle/PerfectSchedle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B9CD4A31943191300EC5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerfectSchedle/PerfectSchedle-Prefix.pch";
+				INFOPLIST_FILE = "PerfectSchedle/PerfectSchedle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B9CD4A51943191300EC5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PerfectSchedle.app/PerfectSchedle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerfectSchedle/PerfectSchedle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PerfectSchedleTests/PerfectSchedleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7B9CD4A61943191300EC5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PerfectSchedle.app/PerfectSchedle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerfectSchedle/PerfectSchedle-Prefix.pch";
+				INFOPLIST_FILE = "PerfectSchedleTests/PerfectSchedleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B9CD46A1943191200EC5EEA /* Build configuration list for PBXProject "PerfectSchedle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9CD49F1943191300EC5EEA /* Debug */,
+				7B9CD4A01943191300EC5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B9CD4A11943191300EC5EEA /* Build configuration list for PBXNativeTarget "PerfectSchedle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9CD4A21943191300EC5EEA /* Debug */,
+				7B9CD4A31943191300EC5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B9CD4A41943191300EC5EEA /* Build configuration list for PBXNativeTarget "PerfectSchedleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9CD4A51943191300EC5EEA /* Debug */,
+				7B9CD4A61943191300EC5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B9CD4671943191200EC5EEA /* Project object */;
+}
