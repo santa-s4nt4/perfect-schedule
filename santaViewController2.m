@@ -47,12 +47,12 @@
                @"Saturday",nil];
 
     imageArry = [[NSMutableArray alloc] initWithObjects:
-                 [UIImage imageNamed:@"月.jpg"],
-                 [UIImage imageNamed:@"火.jpg"],
-                 [UIImage imageNamed:@"水.jpg"],
-                 [UIImage imageNamed:@"木.jpg"],
-                 [UIImage imageNamed:@"金.jpg"],
-                 [UIImage imageNamed:@"土.jpg"],
+                 [UIImage imageNamed:@"Monday.jpg"],
+                 [UIImage imageNamed:@"Tuesday.jpg"],
+                 [UIImage imageNamed:@"Wednesday.jpg"],
+                 [UIImage imageNamed:@"Thursday.jpg"],
+                 [UIImage imageNamed:@"Friday.jpg"],
+                 [UIImage imageNamed:@"Saturaday.jpg"],
                  nil];
     
 }

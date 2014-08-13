@@ -71,6 +71,58 @@
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
+    ud = [NSUserDefaults standardUserDefaults];
+    //保存・更新
+    NSString *str = textfield.text;
+    NSLog(@";%@",str);
+    [ud setObject:str forKey:@"myString"];
+    
+    NSString *str2 = textfield2.text;
+    NSLog(@";%@",str2);
+    [ud setObject:str2 forKey:@"myString2"];
+    
+    NSString *str3 = textfield3.text;
+    NSLog(@";%@",str3);
+    [ud setObject:str3 forKey:@"myString3"];
+    
+    NSString *str4 = textfield4.text;
+    NSLog(@";%@",str4);
+    [ud setObject:str4 forKey:@"myString4"];
+    
+    NSString *str5 = textfield5.text;
+    NSLog(@";%@",str5);
+    [ud setObject:str5 forKey:@"myString5"];
+    
+    NSString *str6 = textfield6.text;
+    NSLog(@";%@",str6);
+    [ud setObject:str6 forKey:@"myString6"];
+    
+    NSString *str7 = textfield7.text;
+    NSLog(@";%@",str7);
+    [ud setObject:str7 forKey:@"myString7"];
+    
+    NSString *str8 = textfield8.text;
+    NSLog(@";%@",str8);
+    [ud setObject:str8 forKey:@"myString8"];
+    
+    NSString *str9 = textfield9.text;
+    NSLog(@";%@",str9);
+    [ud setObject:str9 forKey:@"myString9"];
+    
+    NSString *str10 = textfield10.text;
+    NSLog(@";%@",str10);
+    [ud setObject:str10 forKey:@"myString10"];
+    
+    NSString *str11 = textfield11.text;
+    NSLog(@";%@",str11);
+    [ud setObject:str11 forKey:@"myString11"];
+
+    NSString *str12 = textfield12.text;
+    NSLog(@";%@",str12);
+    [ud setObject:str12 forKey:@"myString12"];
+    
+    [ud synchronize];
+    
     //キーボードを消す
     [textfield resignFirstResponder];
     [textfield2 resignFirstResponder];
@@ -86,51 +138,6 @@
     [textfield12 resignFirstResponder];
     return  YES;
     
-    ud = [NSUserDefaults standardUserDefaults];
-    //保存・更新
-    NSString *str = textfield.text;
-    [ud setObject:str forKey:@"myString"];
-    
-    NSString *str2 = textfield.text;
-    [ud setObject:str2 forKey:@"myString"];
-    
-    NSString *str3 = textfield.text;
-    [ud setObject:str3 forKey:@"myString"];
-    
-    NSString *str4 = textfield.text;
-    [ud setObject:str4 forKey:@"myString"];
-    
-    NSString *str5 = textfield.text;
-    [ud setObject:str5 forKey:@"myString"];
-    
-    NSString *str6 = textfield.text;
-    [ud setObject:str6 forKey:@"myString"];
-    
-    NSString *str7 = textfield.text;
-    [ud setObject:str7 forKey:@"myString"];
-    
-    NSString *str8 = textfield.text;
-    [ud setObject:str8 forKey:@"myString"];
-    
-    NSString *str9 = textfield.text;
-    [ud setObject:str9 forKey:@"myString"];
-    
-    NSString *str10 = textfield.text;
-    [ud setObject:str10 forKey:@"myString"];
-    
-    NSString *str11 = textfield.text;
-    [ud setObject:str11 forKey:@"myString"];
-    
-    NSString *str12 = textfield.text;
-    [ud setObject:str12 forKey:@"myString"];
-    
-//    [ud synchronize];
-    
-
-}
--(IBAction)test{
-         NSString *hoge = [[NSUserDefaults standardUserDefaults] stringForKey:@"myString"];
-    NSLog(@"test:%@",hoge);
 }
 
 -(IBAction)back

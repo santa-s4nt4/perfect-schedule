@@ -24,8 +24,6 @@
     IBOutlet UITextField *textfield12;
 }
 
--(IBAction)tap;
-
 -(IBAction)back;
 
 @end

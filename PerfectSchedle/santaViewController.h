@@ -15,8 +15,8 @@
 
 -(IBAction)face;
 
--(IBAction)schedle;
+-(IBAction)setsumei;
 
--(IBAction)deleteButton;
+-(IBAction)schedule;
 
 @end
