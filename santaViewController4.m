@@ -181,10 +181,6 @@
 
 - (IBAction)changeDatePicker:(id)sender
 {
-//    NSDateFormatter *df = [[NSDateFormatter alloc] init];
-//    [df setDateFormat:@"yyyy/MM/dd HH:mm"];
-//    NSDate *pDate = [df stringFromDate:self.myDatePicker.date];
-//    NSString *pickerDatestr = [df stringFromDate:self.myDatePicker.date];
     NSTimeInterval since = [self.myDatePicker.date timeIntervalSinceNow];
     NSLog(@"picketDate:%f",since);
 }

@@ -71,6 +71,25 @@
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
+    //キーボードを消す
+    [textfield resignFirstResponder];
+    [textfield2 resignFirstResponder];
+    [textfield3 resignFirstResponder];
+    [textfield4 resignFirstResponder];
+    [textfield5 resignFirstResponder];
+    [textfield6 resignFirstResponder];
+    [textfield7 resignFirstResponder];
+    [textfield8 resignFirstResponder];
+    [textfield9 resignFirstResponder];
+    [textfield10 resignFirstResponder];
+    [textfield11 resignFirstResponder];
+    [textfield12 resignFirstResponder];
+    return  YES;
+    
+}
+
+-(IBAction)save
+{
     ud = [NSUserDefaults standardUserDefaults];
     //保存・更新
     NSString *str = textfield.text;
@@ -116,30 +135,18 @@
     NSString *str11 = textfield11.text;
     NSLog(@";%@",str11);
     [ud setObject:str11 forKey:@"myString11"];
-
+    
     NSString *str12 = textfield12.text;
     NSLog(@";%@",str12);
     [ud setObject:str12 forKey:@"myString12"];
     
     [ud synchronize];
     
-    //キーボードを消す
-    [textfield resignFirstResponder];
-    [textfield2 resignFirstResponder];
-    [textfield3 resignFirstResponder];
-    [textfield4 resignFirstResponder];
-    [textfield5 resignFirstResponder];
-    [textfield6 resignFirstResponder];
-    [textfield7 resignFirstResponder];
-    [textfield8 resignFirstResponder];
-    [textfield9 resignFirstResponder];
-    [textfield10 resignFirstResponder];
-    [textfield11 resignFirstResponder];
-    [textfield12 resignFirstResponder];
-    return  YES;
-    
-}
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"教科・持ち物を保存" message:@"教科・持ち物を保存しました。" delegate:
+                              self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    [alertView show];
 
+}
 
 -(IBAction)back
 {

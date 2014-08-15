@@ -24,6 +24,8 @@
     IBOutlet UITextField *textfield12;
 }
 
+-(IBAction)save;
+
 -(IBAction)back;
 
 @end
