@@ -9,6 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface santaViewController4 : UIViewController
+{
+    int hour; //アラートがなるまでの時間
+    int minute; //アラートがなるまでの分
+    int second; //アラートがなるまでの秒
+    
+    NSTimer *timer;
+}
+
+
+-(IBAction)save;
 
 -(IBAction)back;
 

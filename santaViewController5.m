@@ -104,42 +104,59 @@
     NSString *str = [hoge stringByAppendingString:hoge2];
     NSLog(@"test:%@",str);
     
+    NSString *indent = [str stringByAppendingString:@"\n"];
+    NSLog(@"test:%@",indent);
+    
     NSString *str2 =[hoge3 stringByAppendingString:hoge4];
     NSLog(@"test:%@",str2);
+    
+    NSString *indent2 = [str2 stringByAppendingString:@"\n"];
+    NSLog(@"test:%@",indent2);
     
     NSString *str3 = [hoge5 stringByAppendingString:hoge6];
     NSLog(@"test:%@",str3);
     
+    NSString *indent3 = [str3 stringByAppendingString:@"\n"];
+    NSLog(@"test:%@",indent3);
+    
     NSString *str4 = [hoge7 stringByAppendingString:hoge8];
     NSLog(@"test:%@",str4);
+    
+    NSString *indent4 = [str4 stringByAppendingString:@"\n"];
+    NSLog(@"test:%@",indent4);
     
     NSString *str5 = [hoge9 stringByAppendingString:hoge10];
     NSLog(@"test:%@",str5);
     
+    NSString *indent5 = [str5 stringByAppendingString:@"\n"];
+    NSLog(@"test:%@",indent5);
+    
     NSString *str6 = [hoge11 stringByAppendingString:hoge12];
     NSLog(@"test:%@",str6);
     
+    NSString *indent6 = [str6 stringByAppendingString:@"\n"];
+    NSLog(@"test:%@",indent6);
     
-    NSString *league = [str stringByAppendingString:str2];
-    NSLog(@"test:%@",league);
+    NSString *combine = [indent stringByAppendingString:indent2];
+    NSLog(@"test:%@",combine);
     
-    NSString *league2 = [str3 stringByAppendingString:str4];
-    NSLog(@"test:%@",league2);
+    NSString *combine2 = [indent3 stringByAppendingString:indent4];
+    NSLog(@"test:%@",combine2);
     
-    NSString *league3 = [str5 stringByAppendingString:str6];
-    NSLog(@"test:%@",league3);
+    NSString *combine3 = [indent5 stringByAppendingString:indent6];
+    NSLog(@"test:%@",combine3);
     
+    NSString *whole = [combine stringByAppendingString:combine2];
+    NSLog(@"test:%@",whole);
     
-    NSString *all = [league stringByAppendingString:league2];
-    NSLog(@"test:%@",all);
+    NSString *whole2 = combine3;
+    NSLog(@"test:%@",whole2);
     
-    NSString *all2 = league3;
-    NSLog(@"test:%@",all2);
-    
-    NSString *all3 = [all stringByAppendingString:all2];
+    NSString *whole3 = [whole stringByAppendingString:whole2];
+    NSLog(@"test:%@",whole3);
     
     // messageにいい感じに放り込む
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"時間割" message:all3 delegate:
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"時間割" message:whole3 delegate:
                               self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
     [alertView show];
 }

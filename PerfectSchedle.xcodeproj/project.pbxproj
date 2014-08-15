@@ -42,6 +42,8 @@
 		7B9CD4B219432B2B00EC5EEA /* santaViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4B119432B2B00EC5EEA /* santaViewController3.m */; };
 		7B9CD4B519432B5100EC5EEA /* santaViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4B419432B5100EC5EEA /* santaViewController4.m */; };
 		7B9CD4B819432B6A00EC5EEA /* santaViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CD4B719432B6A00EC5EEA /* santaViewController5.m */; };
+		7BB9C2FF199CE94600A3154F /* icon+A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9C2FD199CE94600A3154F /* icon+A.png */; };
+		7BB9C300199CE94600A3154F /* icon+.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9C2FE199CE94600A3154F /* icon+.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		7B9CD4B419432B5100EC5EEA /* santaViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = santaViewController4.m; path = ../santaViewController4.m; sourceTree = "<group>"; };
 		7B9CD4B619432B6A00EC5EEA /* santaViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = santaViewController5.h; path = ../santaViewController5.h; sourceTree = "<group>"; };
 		7B9CD4B719432B6A00EC5EEA /* santaViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = santaViewController5.m; path = ../santaViewController5.m; sourceTree = "<group>"; };
+		7BB9C2FD199CE94600A3154F /* icon+A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon+A.png"; sourceTree = "<group>"; };
+		7BB9C2FE199CE94600A3154F /* icon+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon+.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 		7B9CD4781943191200EC5EEA /* PerfectSchedle */ = {
 			isa = PBXGroup;
 			children = (
+				7BB9C2FD199CE94600A3154F /* icon+A.png */,
+				7BB9C2FE199CE94600A3154F /* icon+.png */,
 				7B7B98521999FD4A0005B8BA /* Tuesday.jpg */,
 				7B7B98531999FD4A0005B8BA /* Friday.jpg */,
 				7B7B98541999FD4A0005B8BA /* Thursday.jpg */,
@@ -306,6 +312,7 @@
 				7B38CA36197A70A500EF48E0 /* russia.jpg in Resources */,
 				7B7B985D1999FD4A0005B8BA /* Monday.jpg in Resources */,
 				7B06295B196846A600B065B2 /* FB.png in Resources */,
+				7BB9C300199CE94600A3154F /* icon+.png in Resources */,
 				7B9CD4AA19431BA200EC5EEA /* lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300.png in Resources */,
 				7B9CD4A919431BA200EC5EEA /* _XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300.png in Resources */,
 				7B06295919680AF800B065B2 /* 123.jpg in Resources */,
@@ -315,6 +322,7 @@
 				7B9CD47D1943191200EC5EEA /* InfoPlist.strings in Resources */,
 				7B0ED39C1991D9C700BEDBF3 /* finish.jpg in Resources */,
 				7B7B985C1999FD4A0005B8BA /* Wednesday.jpg in Resources */,
+				7BB9C2FF199CE94600A3154F /* icon+A.png in Resources */,
 				7B5C048C198FC92A00F32E61 /* gamen.jpg in Resources */,
 				7B7B985B1999FD4A0005B8BA /* Saturaday.jpg in Resources */,
 				7B7B98591999FD4A0005B8BA /* Friday.jpg in Resources */,
